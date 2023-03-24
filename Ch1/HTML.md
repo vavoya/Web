@@ -79,14 +79,14 @@ DOM은 \<p\>요소를 포함시킨다.
 <img src="
 https://wit.nts-corp.com/wp-content/uploads/2019/02/-9">
 그러나 렌더 트리에 해당하는 뷰 포트에 표시되는 내용은 \<p\>요소를 포함하지 않는다.
-<img src="https://wit.nts-corp.com/wp-content/uploads/2019/02/-8">
+[이미지 렌더링 안되서 링크로](https://wit.nts-corp.com/wp-content/uploads/2019/02/-8)
 
 ### 3. DOM은 개발도구에서 보이는 것이 아니다.
 개발도구의 요소 검사기는 DOM과 가장 가까운 근사치를 제공한다. 그러나 개발도구의 요소 검사기는 DOM에 없는 추가적인 정보를 포함한다.
 가장 좋은 예는 CSS의 가상 요소이다. ***::before*** 과 ***::after*** 선택자를 사용하여 생성된 가상 요소는 CSSOM과 렌더 트리의 일부를 구성한다.
 하지만, 기술적으로 DOM의 일부는 아니다. DOM은 오직 원본 HTML 문서로부터 빌드 되고, 요소에 적용되는 스타일을 포함하지 않기 때문이다.
 가상 요소가 DOM의 일부가 아님에도 불구하고, 요소 검사기에서는 아래와 같이 확인된다.
-<img src="https://wit.nts-corp.com/wp-content/uploads/2019/02/-10">
+[이미지 렌더링 안되서 링크로](https://wit.nts-corp.com/wp-content/uploads/2019/02/-10)
 이러한 이유로 가상 요소는 DOM의 일부가 아니기 때문에 자바스크립트에 의해 수정될 수 없다.
 
 ## 요약정리
