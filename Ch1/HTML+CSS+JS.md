@@ -8,10 +8,10 @@
 	- URL/URI
 	- www
 	- http/https
-- [인터넷](obsidian://open?vault=Obsidian%20Vault&file=Web%2FCh%201.%20HTML%20%2B%20CSS%20%2B%20JS%2FC%20%EC%9D%B8%ED%84%B0%EB%84%B7)
-- [웹 1.0 /](obsidian://open?vault=Obsidian%20Vault&file=Web%2FCh%201.%20HTML%20%2B%20CSS%20%2B%20JS%2FD%20%EC%9B%B9%201.0)
-- [브라우저](obsidian://open?vault=Obsidian%20Vault&file=Web%2FCh%201.%20HTML%20%2B%20CSS%20%2B%20JS%2FE%20%EB%B8%8C%EB%9D%BC%EC%9A%B0%EC%A0%80)
-- [HTML](obsidian://open?vault=Obsidian%20Vault&file=Web%2FCh%201.%20HTML%20%2B%20CSS%20%2B%20JS%2FF%20HTML)
+- [인터넷](https://github.com/vavoya/Web/blob/main/Ch1/인터넷.md)
+- [웹 1.0 /](https://github.com/vavoya/Web/blob/main/Ch1/웹.1.0.md)
+- [브라우저](https://github.com/vavoya/Web/blob/main/Ch1/브라우저.md)
+- [HTML](https://github.com/vavoya/Web/blob/main/Ch1/HTML.md)
 	- DOM
 	- \<div\> 태그
 	- \<img\> 태그
@@ -20,7 +20,7 @@
 	- \<span\> 태그
 	- id, class
 	- Markup Language
-- [CSS](obsidian://open?vault=Obsidian%20Vault&file=Web%2FCh%201.%20HTML%20%2B%20CSS%20%2B%20JS%2FG%20CSS)
+- [CSS](https://github.com/vavoya/Web/blob/main/Ch1/CSS.md)
 	- 선택자
 	- flex
 	- grid
