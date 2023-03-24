@@ -9,7 +9,7 @@
 	- www
 	- http/https
 - [인터넷](https://github.com/vavoya/Web/blob/main/Ch1/인터넷.md)
-- [웹 1.0 /](https://github.com/vavoya/Web/blob/main/Ch1/웹.1.0.md)
+- [웹 1.0 /](https://github.com/vavoya/Web/blob/main/Ch1/웹1.0.md)
 - [브라우저](https://github.com/vavoya/Web/blob/main/Ch1/브라우저.md)
 - [HTML](https://github.com/vavoya/Web/blob/main/Ch1/HTML.md)
 	- DOM
