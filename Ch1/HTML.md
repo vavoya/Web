@@ -6,7 +6,9 @@ DOM(Document Object Model)은 웹 페이지에 대한 인터페이스. 기본적
 웹 브라우저가 원본 HTML 문서를 읽음 -> 스타일을 입히고 대화형 페이지로 만들어 뷰 포트에 표히하기 까지의 과정을 "Critical Rendering Path"라고 한다. Understanding the Critical Rendering Path 에서 다루듯이 이 과정은 여러 단계로 나누어져 있지만, 이 단계들은 대략 두 단계로 나눌 수 있다. 
 첫 번째 단계에서 브라우저는 읽어들인 문서를 파싱(parsing 구문 분석)하여 최종적으로 어떤 내용을 페이지에 렌더링할지 결정.
 두 번째 단계에서 브라우저는 해당 렌더링을 수행.
-<img src="https://wit.nts-corp.com/wp-content/uploads/2019/02/-1">
+
+[이미지 렌더링 안되서 링크로](https://wit.nts-corp.com/wp-content/uploads/2019/02/-1)
+
 첫 번째 과정을 거치면 "렌더 트리"가 생성된다.
 렌더 트리는 웹 페이지에 표시될 HTML 요소들과 이와 관련된 스타일 요소들로 구성. 브라우저는 렌더 트리를 생성하기 위해 다음과 같이 두 모델이 필요
 - DOM(Document Object Model) - HTML 요소들의 구조화된 표현
@@ -29,7 +31,7 @@ DOM의 객체 구조는 "노드 트리"로 표현된다. 하나의 부모 줄기
 </html>
 ```
 이 문서는 아래와 같은 노드 트리로 표현된다.
-<img src="https://wit.nts-corp.com/wp-content/uploads/2019/02/-3">
+[이미지 렌더링 안되서 링크로](https://wit.nts-corp.com/wp-content/uploads/2019/02/-3)
 
 ## DOM이 아닌 것
 위 예제 혹은 DevTools에서 DOM은 마치 HTML 문서와 1대1 매핑이 되는 것 처럼 보인다. 그러나 둘 간에는 몇 가지 차이점이 있다.
@@ -47,7 +49,7 @@ Hello, world!
 </html>
 ```
 문서에 유효한 HTML 규칙의 필수 사항인 \<head\> 와 \<body\> 요소가 빠져있다. 그렇지만 생성된 DOM 트리에는 올바르게 교정되어 나타난다.
-<img src="https://wit.nts-corp.com/wp-content/uploads/2019/02/-5">
+[이미지 렌더링 안되서 링크로](https://wit.nts-corp.com/wp-content/uploads/2019/02/-5)
 
 #### 자바스크립트에 의해 DOM이 수정될 때
 DOM은 HTML 문서의 내용을 볼 수 있는 인터페이스 역할을 하는 동시에 동적 자원이 되어 수정될 수 있다.
@@ -188,6 +190,7 @@ inline태그(앞뒤로 줄 바꿈 X), 반드시 src속성(source)을 사용해�
 
 ## \<a\>에서 사용할 수 있는 속성 값
 1) **href** : href 어트리뷰트는 이동하고자 하는 파일의 위치(경로)를 값으로 받는다. 경로(path)란 파일 시스템 상에서 특정 파일의 위치를 의미한다
+
 | Value               | Description                                                    |
 | ------------------- | -------------------------------------------------------------- |
 | 절대 URL            | 웹 사이트 URL (href="https://www.example.com/default.html")    |
@@ -208,6 +211,7 @@ inline태그(앞뒤로 줄 바꿈 X), 반드시 src속성(source)을 사용해�
 ```
 
 2) **target** : 새 창 or 새 탭에서 링크를 열 때 사용
+
 | \_blank  | 새로운 탭 or 창                                        |
 | -------- | ------------------------------------------------------ |
 | \_self   | 현재 탭 or 창                                          |
