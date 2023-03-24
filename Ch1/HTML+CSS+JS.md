@@ -4,7 +4,7 @@
 > 조사는 공식 홈페이지 Best, 블로그(최신 날짜) Not Bad
 
 # 목차
-- [Web](obsidian://open?vault=Obsidian%20Vault&file=Web%2FCh%201.%20HTML%20%2B%20CSS%20%2B%20JS%2FB%20Web)
+- [Web](https://github.com/vavoya/Web/blob/main/Ch1/Web.md)
 	- URL/URI
 	- www
 	- http/https
